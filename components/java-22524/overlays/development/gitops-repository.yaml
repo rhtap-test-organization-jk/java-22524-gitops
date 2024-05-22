@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: java-22524-gitops-repository
+spec:
+  url: https://github.com/rhtap-test-organization-jk/java-22524-gitops
